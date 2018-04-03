@@ -1,0 +1,71 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.blue { color: #205493; }
+.green   { color: #779126; }
+.yellow  { color: #eec111; }
+.red { color: #f4426b; }
+.bg-blue { background-color: #205493; }
+.gray { color: #959595; }
+
+header {
+  padding: 8px 20px;
+}
+.logo {
+  height: 60px;
+  width: 120px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.title-section {
+  width: 450px;
+  margin: 10px auto;
+}
+
+.sentence-section {
+  font-size: 36px;
+  width: 600px;
+  margin: 50px auto 20px;
+  line-height: 1.5em;
+}
+
+.styled-select {
+   display: inline;
+}
+
+.styled-select select {
+   border: none;
+   padding: 5px 0px;
+   background-color: #fff;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.button-section {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.go-button {
+  float: right;
+  width: 200px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 36px
+}
