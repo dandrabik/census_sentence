@@ -6,7 +6,10 @@ body {
 .green   { color: #779126; }
 .yellow  { color: #eec111; }
 .red { color: #f4426b; }
+.white {color: white;}
 .bg-blue { background-color: #205493; }
+.bg-green   { background-color: #779126; }
+.bg-red  { background-color: #f4426b; }
 .gray { color: #959595; }
 
 header {
@@ -69,3 +72,55 @@ h2 {
   font-weight: bold;
   font-size: 34px
 }
+
+/* search page */
+.omnibox-section {
+  font-size: 24px;
+  width: 600px;
+  margin: 50px auto 20px;
+  line-height: 1.5em;
+}
+.searchbox {
+  font-size: 24spx;
+  float:left;
+  width: 480px;
+  height: 80px;
+  display: inline;
+  padding-left: 20px;
+}
+.searchbox::placeholder {
+  font-size: 18px;
+  color: #a5a5a5;
+}
+
+.search-button {
+  float:left;
+  display: inline;
+  margin-left: 20px;
+  height: 80px;
+  width: 100px;
+  background-color: green;
+  color: white;
+}
+.example-section {
+  font-size: 24px;
+  width: 1000px;
+  margin: 250px auto 20px;
+  line-height: 1.5em;
+}
+
+.example-search {
+  text-align: center;
+  float: left;
+  font-size: 24px;
+  width: 250px;
+  height: 120px;
+  margin-right: 20px;
+  line-height: 1.5em;
+  border: 1px solid black;
+  padding: 20px;
+}
+.example-search:hover {
+  cursor: pointer;
+}
+
