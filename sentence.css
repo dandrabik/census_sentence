@@ -102,10 +102,13 @@ h2 {
   float:left;
   display: inline;
   margin-left: 20px;
-  height: 80px;
-  width: 100px;
+  height: 40px;
+  width: 80px;
   background-color: green;
   color: white;
+  text-decoration: none;
+  padding: 20px 10px;
+  font-size: 22px;
 }
 .searchbox.smaller, .search-button.smaller {
   height: 50px;
