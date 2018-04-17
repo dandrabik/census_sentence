@@ -5,6 +5,7 @@
   <!-- CSS Reset -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
   <link rel="stylesheet" type="text/css" href="sentence.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="bg-blue">
@@ -22,20 +23,68 @@
     <input type="search" name="search" placeholder="Population of Cambridge, Commute time in California" class="searchbox"/>
     <button class='search-button'>Search</button>
   </div>
+
+  <div class="topic-section">
+    <h2>Browse by Topics</h2>
+    <a class="topic-item blue" href="">
+      <i class="fas fa-users topic-icon"></i>
+      <div class="topic-label">Demographics</div>
+    </a>
+    <a class="topic-item blue" href="">
+      <i class="fas fa-hand-holding-usd topic-icon"></i>
+      <div class="topic-label">Economic</div>
+    </a>
+    <a class="topic-item blue" href="">
+      <i class="fas fa-home topic-icon"></i>
+      <div class="topic-label">Housing</div>
+    </a>
+    <a class="topic-item blue" href="">
+      <i class="fas fa-graduation-cap topic-icon"></i>
+      <div class="topic-label">Educational</div>
+    </a>
+    <a class="topic-item blue" href="">
+      <i class="fas fa-briefcase topic-icon"></i>
+      <div class="topic-label">Employment</div>
+    </a>
+    <a class="topic-item blue" href="">
+      <i class="fas fa-building topic-icon"></i>
+      <div class="topic-label">Business</div>
+    </a>
+  </div>
+
   <div class='example-section'>
     <h2>Examples</h2>
     <div class='example-search bg-blue white'>
       Demographics of Los&nbsp;Angeles, CA by age, gender, and race
     </div>
     <div class='example-search bg-green white'>
-      Average commute time in New Jersey
+      Average House Price in Washington, D.C.
+    </div>
+    <div class='example-search bg-red white'>
+      New York City <br/>Overview Page
     </div>
 
+    <!-- Second line -->
     <div class='example-search bg-red white'>
       Median income in Colorado's 11th Congressional District
     </div>
+    <div class='example-search bg-blue white'>
+      American Community Survey 2017
+    </div>
+    <div class='example-search bg-green white'>
+      Texas <br/>Overview Page
+    </div>
 
-
+    <!-- Third line -->
+    <div class='example-search bg-green white'>
+      Educational Attainment in the U.S.
+    </div>
+    <div class='example-search bg-red white'>
+      Unemployment in Dade County, Florida
+    </div>
+    <div class='example-search bg-blue white'>
+      Average commute time in New Jersey
+    </div>
   </div>
 </body>
 </html>

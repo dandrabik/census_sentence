@@ -3,6 +3,7 @@ body {
 }
 
 .blue { color: #205493; }
+.blue-gray {color: #406a9e;}
 .green   { color: #779126; }
 .yellow  { color: #eec111; }
 .red { color: #f4426b; }
@@ -105,25 +106,47 @@ h2 {
 .searchbox.smaller, .search-button.smaller {
   height: 50px;
 }
+.topic-section {
+  width: 1000px;
+  margin: 200px auto 20px;
+}
+.topic-section h2 {
+  margin-bottom: 30px;
+}
+.topic-item {
+  float:left;
+  clear:none;
+  width: 110px;
+  margin-right: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
+.topic-icon {
+  font-size: 38px;
+}
+.topic-label {
+  margin-top: 20px;
+}
 
 .example-section {
   font-size: 24px;
   width: 1000px;
-  margin: 250px auto 20px;
+  margin: 150px auto 20px;
   line-height: 1.5em;
 }
 
 .example-search {
   text-align: center;
   float: left;
-  font-size: 24px;
+  font-size: 22px;
   width: 250px;
-  height: 120px;
+  height: 100px;
   margin-right: 20px;
   line-height: 1.5em;
   border: 1px solid black;
   padding: 20px;
+  margin-bottom: 50px;
 }
 .example-search:hover {
   cursor: pointer;
