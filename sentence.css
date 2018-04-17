@@ -81,6 +81,10 @@ h2 {
   margin: 50px auto 20px;
   line-height: 1.5em;
 }
+.omnibox-subsection {
+  font-size: 12px;
+  padding-left: 280px;
+}
 .searchbox {
   font-size: 24spx;
   float:left;
