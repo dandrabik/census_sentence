@@ -1,6 +1,9 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
+a, a:visited {
+  color: #1a0dab;
+}
 
 .blue { color: #205493; }
 .blue-gray {color: #406a9e;}
@@ -11,6 +14,7 @@ body {
 .bg-blue { background-color: #205493; }
 .bg-green   { background-color: #4d7c3a; }
 .bg-red  { background-color: #d81515; }
+.bg-yellow  { background-color: #e8b800; }
 .gray { color: #959595; }
 
 header {
@@ -105,7 +109,6 @@ h2 {
   height: 35px;
   width: 80px;
   background-color: green;
-  color: white;
   text-decoration: none;
   padding: 20px 2px 20px 18px;
   font-size: 20px;
@@ -113,18 +116,25 @@ h2 {
    -moz-border-radius: 3px;
    border-radius: 3px;
 }
-.searchbox.smaller, .search-button.smaller {
+a.search-button:visited, a.search-button {
+  color: white;
+}
+
+.searchbox.smaller {
   height: 50px;
 }
 
 .search-button.smaller {
-  padding-top: 15px;
-  padding-left: 0px;
+  height: 30px;
+  padding: 15px 0px 5px 20px;
   font-size: 16px;
 }
 .topic-section {
   width: 1000px;
   margin: 200px auto 20px;
+}
+.topic-section a, .topic-section a:visited {
+  color: #205493;
 }
 .topic-section h2 {
   margin-bottom: 30px;
