@@ -8,7 +8,7 @@ a, a:visited {
 .blue { color: #205493; }
 .blue-gray {color: #406a9e;}
 .green   { color: #779126; }
-.yellow  { color: #eec111; }
+.yellow  { color: #e8b800; }
 .red { color: #d81515; }
 .white {color: white;}
 .bg-blue { background-color: #205493; }
@@ -41,7 +41,7 @@ h2 {
 }
 
 .sentence-section {
-  font-size: 34px;
+  font-size: 32px;
   width: 620px;
   margin: 50px auto 20px;
   line-height: 1.5em;
