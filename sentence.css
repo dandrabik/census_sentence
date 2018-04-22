@@ -6,11 +6,11 @@ body {
 .blue-gray {color: #406a9e;}
 .green   { color: #779126; }
 .yellow  { color: #eec111; }
-.red { color: #f4426b; }
+.red { color: #d81515; }
 .white {color: white;}
 .bg-blue { background-color: #205493; }
 .bg-green   { background-color: #4d7c3a; }
-.bg-red  { background-color: #f4426b; }
+.bg-red  { background-color: #d81515; }
 .gray { color: #959595; }
 
 header {
@@ -190,7 +190,7 @@ h2 {
   padding-left: 300px;
 }
 .results-section {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .result-item {
@@ -210,17 +210,20 @@ h2 {
 .top-result {
   margin-top: 20px;
   border: 1px solid black;
-  padding: 10px 20px;
-  width: 560px;
+  padding: 20px 20px 40px;
+  width: 350px;
   background-color: #f5f5f5;
+    -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
 }
 
 .top-result h2 {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: bold;
 }
 h2 .addendum {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
 }
 
@@ -228,6 +231,11 @@ h2 .addendum {
   margin-left: 100px;
   float:left;
   clear:left;
+}
+.results-right {
+  margin-right: 150px;
+  float: right;
+  clear: right;
 }
 .result-citation {
   font-size: 12px;
