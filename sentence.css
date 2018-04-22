@@ -68,6 +68,12 @@ h2 {
   margin: 30px auto;
 }
 
+a.plus-button, a.plus-button:visited {
+  color: #63a9ff;
+  font-size: 26px;
+  margin-left: 10px;
+}
+
 .go-button {
   float: right;
   width: 200px;
@@ -75,7 +81,7 @@ h2 {
   background-color: green;
   color: white;
   font-weight: bold;
-  font-size: 34px
+  font-size: 34px;
 }
 
 /* search page */

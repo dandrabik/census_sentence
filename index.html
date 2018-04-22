@@ -5,6 +5,7 @@
   <!-- CSS Reset -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
   <link rel="stylesheet" type="text/css" href="sentence.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="bg-blue">
@@ -32,7 +33,15 @@
           <option value="economic">Business Data</option>
         </select>
     </div>
-    <br/>within
+    <br/>at the
+      <div class= "styled-select">
+        <select class="yellow">
+          <option value="population" selected>State Level</option>
+          <option value="economic">Congressional District Level</option>
+          <option value="economic">County Level</option>
+        </select>
+      </div>
+    <br/>for
     <div class= "styled-select">
         <select class ="red">
           <option value="AL">Alabama</option>
@@ -88,14 +97,7 @@
           <option value="WY">Wyoming</option>
         </select>
       </div>
-      <br/>at the
-      <div class= "styled-select">
-        <select class="yellow">
-          <option value="population" selected>State Level</option>
-          <option value="economic">Congressional District Level</option>
-          <option value="economic">County Level</option>
-        </select>
-      </div>
+      <a class="plus-button" href="#"><i class="fas fa-plus-circle"></i></a>
       </br>broken down by
       <div class= "styled-select">
         <select class="blue">
@@ -105,6 +107,7 @@
           <option value="economic">Place of Birth</option>
         </select>
       </div>
+      <a class="plus-button" href="#"><i class="fas fa-plus-circle"></i></a>
       </br>for the year
       <div class= "styled-select">
   <select name="birth-year" class="red">
@@ -189,7 +192,8 @@
     <option value="1939">1939</option>
     <option value="1938">1938</option>
     </select>
-      </div>
+  </div>
+  <a class="plus-button" href="#"><i class="fas fa-plus-circle"></i></a>
   </div>
   <div class="button-section">
     <button class="go-button semi-square">Go &rarr;</button>
