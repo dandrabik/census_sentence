@@ -252,8 +252,9 @@ a.search-button:visited, a.search-button {
   margin-right: 5px;
 }
 .results-feedback {
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin: 5px 20px 20px 0;
+  float: right;
+  clear: left;
 }
 
 h2 .addendum {
