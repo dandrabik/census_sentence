@@ -5,6 +5,7 @@
   <!-- CSS Reset -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
   <link rel="stylesheet" type="text/css" href="sentence.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="bg-blue">
@@ -25,12 +26,19 @@
       <a href="">Filter Results</a>
   </div>
   <div class="top-result results-right">
-    <h2>
-      130,000
-      <span class="addendum">Residents of Cambridge</span>
-    </h2>
-    <div class="result-citation">
-      According to the <a href="">American Community Survey 2017</a>
+    <div class="top-result-box">
+      <h2>
+        130,000
+        <span class="addendum">Residents of Cambridge</span>
+      </h2>
+      <div class="result-citation">
+        According to the <a href="">American Community Survey 2017</a>
+      </div>
+    </div>
+    <div class="top-result-feedback">
+      <a href="#" class="feedback-link"><i class="fas fa-thumbs-up blue"></i></a>
+      <a href="#" class="feedback-link"><i class="fas fa-thumbs-down blue"></i></a>
+      <span class="blue-gray">Is this what you were looking for?</span>
     </div>
   </div>
 
@@ -71,7 +79,11 @@
       <div class="result-info">Explore Demographics for the entire U.S. View maps, tables and infographics.</div>
     </div>
   </div>
-
+  <div class="results-feedback results-left">
+      <a href="#" class="feedback-link"><i class="fas fa-thumbs-up blue"></i></a>
+      <a href="#" class="feedback-link"><i class="fas fa-thumbs-down blue"></i></a>
+      <span class="blue-gray">Were these results helpful?</span>
+    </div>
   </div>
 </body>
 </html>

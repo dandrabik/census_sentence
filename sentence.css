@@ -206,11 +206,11 @@ a.search-button:visited, a.search-button {
   padding-left: 300px;
 }
 .results-section {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .result-item {
-  padding:10px 0px;
+  padding: 8px 0px;
   float: left;
   clear: left;
   color: #666;
@@ -225,11 +225,14 @@ a.search-button:visited, a.search-button {
 }
 .top-result {
   margin-top: 20px;
+}
+
+.top-result-box {
+  margin-top: 20px;
   border: 1px solid black;
   padding: 20px 20px 40px;
-  width: 350px;
   background-color: #f5f5f5;
-    -webkit-border-radius: 3px;
+   -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
    border-radius: 3px;
 }
@@ -238,6 +241,21 @@ a.search-button:visited, a.search-button {
   font-size: 28px;
   font-weight: bold;
 }
+
+.top-result-feedback {
+  margin-top: 10px;
+  float: right;
+  font-size: 14px;
+}
+.feedback-link {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.results-feedback {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 h2 .addendum {
   font-size: 22px;
   font-weight: normal;
@@ -251,7 +269,7 @@ h2 .addendum {
 .results-right {
   margin-right: 150px;
   float: right;
-  clear: right;
+  clear: none;
 }
 .result-citation {
   font-size: 12px;
